@@ -1,0 +1,14 @@
+{"E:\\13.xml": {
+		"bandwidth":"16MHz",
+		"Frequence":"100",
+		"Layer1": { 
+			"segNum":"14"
+			},
+		"layerA":{
+			"val6":"2"
+			}
+		},
+"E:\\12.xml": {
+		"bandwidth": "8MHz"
+		}
+}

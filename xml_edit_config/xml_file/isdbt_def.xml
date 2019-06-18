@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModulationParameters>
+  <ISDB-T>
+    <General bandwidth="Bandwidth_6MHz" seg_num="Seg_13" fftmode="Mode_3" gi="Guard_1_32" partial="Partial_OFF" usetmcc="False" ts_is_common="True" AllowMultiLayerPID="False" />
+    <Layer segNum="13" modulation="QAM64" rscoderate="CodeRate7_8" interleaving="TI3" />
+    <Layer segNum="0" modulation="DQPSK" rscoderate="CodeRate1_2" interleaving="TI0" />
+    <Layer segNum="0" modulation="DQPSK" rscoderate="CodeRate1_2" interleaving="TI0" />
+    <pidmap totalnum="7">
+      <layerA val0="1" val1="1" val2="1" val3="1" val4="1" val5="1" val6="1" />
+      <layerB val0="0" val1="0" val2="0" val3="0" val4="0" val5="0" val6="0" />
+      <layerC val0="0" val1="0" val2="0" val3="0" val4="0" val5="0" val6="0" />
+    </pidmap>
+    <RF Frequence="473.143" Level="-25" Levelunit="dBm" />
+    <File path="Z:\DVB-T\DVBT_cb_3730Kbps 1kHz -12dB 彩条.ts" />
+  </ISDB-T>
+  <FUNCTIONS>
+    <LoopMode RateAdaption_flag="True" NullPacket_Payload_Randomize="False" PCR_ReMux_flag="True" PCR_Enhance_flag="False" CC_ReMux_flag="True" />
+    <TDT_TOT TDT_TOT_ReMux_flag="False" Use_CustomUTCTime="0" />
+    <UTC year="2019" month="5" day="13" hour="11" minite="26" second="28" />
+    <SubLoop sub_pst="0" sub_pet="0" />
+    <ErrInject trans_err_probability="1000" bit_err_probability="1000" bit_err_max_per_packet="1" byte_err_probability="1000" byte_err_max_per_packet="1" />
+    <CN CN_Switch="0" CN_Value="60" IsCoupling="1" ReceiveBW="8" step="1" />
+    <CostumTSRate Rate="0" />
+    <Spectrum_Invert Is_Invert="False" />
+  </FUNCTIONS>
+</ModulationParameters>

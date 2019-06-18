@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModulationParameters>
+  <DVB-T2>
+    <General bandwidth="Bandwidth_8MHz" bandwidth_ext="Extended" fft_mode="Mode_32K" guard_itv="Guard_1_32" l1_modulation="QAM64" l1PostScramble="False" pilot="PP4" papr="PAPR_TR" nw_id="12421" t2_system_id="32769" cell_id="0" t2_version="v111" />
+    <T2Frame num_t2_frames="2" num_data_syms="59" />
+    <Rf Level="0.0" Levelunit="dBm">
+      <Channel Frequence="594000000" />
+    </Rf>
+    <Plp plp_id="0" group_id="0" type="Type1" modulation="QAM256" code_rate="CodeRate3_4" fec_type="Normal" time_il_length="3" hem="True" issy="False" issy_bufs="0" issy_t_design="0" null_packet_deletion="False" rotation="True" num_blocks="185">
+      <Source ts_rate="39219232.7825107" plp_rate="40491617.0669717">
+        <TsFile in_file="Z:\!SYLP\测试套件\01 外部 官方测试套件(licensed)\Digital TV\DTG\Freeview HD\01 Freeview HD SIPSI Test Suite\Current Version\SI_UK_T2_11.00\dvb_t2_si10_11.00\si10_36c_32k_256qam_cr23_gi128_11.00.ts" />
+      </Source>
+    </Plp>
+  </DVB-T2>
+  <FUNCTIONS>
+    <LoopMode RateAdaption_flag="True" NullPacket_Payload_Randomize="False" PCR_ReMux_flag="True" PCR_Enhance_flag="False" CC_ReMux_flag="True" />
+    <TDT_TOT TDT_TOT_ReMux_flag="False" Use_CustomUTCTime="0" />
+    <UTC year="2019" month="5" day="11" hour="5" minite="59" second="52" />
+    <SubLoop sub_pst="0" sub_pet="0" />
+    <ErrInject trans_err_probability="1000" bit_err_probability="1000" bit_err_max_per_packet="1" byte_err_probability="1000" byte_err_max_per_packet="1" />
+    <CN CN_Switch="0" CN_Value="60" IsCoupling="1" ReceiveBW="8" step="1" />
+    <CostumTSRate Rate="0" />
+    <Spectrum_Invert Is_Invert="False" />
+  </FUNCTIONS>
+</ModulationParameters>
